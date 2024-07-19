@@ -1,0 +1,177 @@
+@media (min-width: 991px) {
+  .navbar-toggler:focus .btn-close:focus {
+    outline: none;
+    box-shadow: none;
+    /* color: white; */
+  }
+
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 80%;
+    transform: translateX(-10%);
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-link:hover::before {
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .continuous-rotate {
+    width: 75% !important;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .hero-section {
+    height: unset !important;
+  }
+  .hero-section .text-banner h1 {
+    font-size: 2.1rem !important;
+    font-weight: 800;
+  }
+
+  .hero-section .container {
+    padding: unset !important;
+    height: unset !important;
+  }
+  /* .img-heading img {
+    width: 40%;
+  } */
+  .img-heading h1 {
+    font-size: 3.2rem !important;
+  }
+
+  /* About me  */
+  .continuous-rotate {
+    width: 75% !important;
+  }
+  .section-space {
+    margin: 0px !important;
+  }
+  .about-text h2 {
+    font-size: 2rem !important;
+    font-weight: 600;
+  }
+
+  /* end about me */
+
+  /* Text banner */
+  .text-font h1,
+  .title h1 {
+    font-size: 2rem !important;
+  }
+  /* End Text banner */
+  /* skils section */
+  .code-skill span {
+    font-size: 15px;
+    gap: 5px;
+  }
+  /* end skills section */
+
+  /* Footer Section */
+
+  .footer-section {
+    text-align: center !important;
+  }
+  /* End footer section  */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .nav-a .nav-link {
+    color: black !important;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 30px;
+  }
+  .logo a {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+  }
+  .offcanvas-title {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  .footer-logo img {
+    width: 50% !important;
+  }
+  .hero-section {
+    height: unset !important;
+  }
+  .hero-section .container {
+    padding: unset !important;
+    height: unset !important;
+  }
+  .hero-section .text-banner h1 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .hero-section .container {
+    /* margin-top: 100px !important; */
+    padding-top: 50px !important;
+    margin: auto;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .img-heading img {
+    width: 45%;
+  }
+
+  .text-banner {
+    padding-left: 40px;
+  }
+  /* About me  */
+  .section-space {
+    margin: 10px !important;
+  }
+  .about-text h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  /* end about me */
+
+  /* Text banner */
+  .text-font h1,
+  .title h1 {
+    font-size: 2rem !important;
+  }
+
+  /* End Text banner */
+  /* Skilss */
+  .code-skill span {
+    font-size: 14px;
+  }
+  /* skills */
+  /* Footer section */
+
+  .footer-text h1,
+  h2 {
+    font-size: 2.5rem;
+  }
+  .phone {
+    margin-top: 10px;
+  }
+  /* End footer secton */
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
