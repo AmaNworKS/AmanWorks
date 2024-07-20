@@ -205,12 +205,13 @@ body {
 .btn:hover {
   opacity: 1;
 }
-.btn button {
+.btn a {
+  color: black;
   font-size: 1.2rem;
-  font-weight: 500;
-  padding: 10px;
+  font-weight: 600;
+  padding: 15px;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #d7a75d;
 }
 
@@ -269,7 +270,7 @@ h2 {
 .mail a {
   color: white;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .mail:hover {
   background-color: #d7a75d;
