@@ -95,7 +95,21 @@ body {
   color: transparent;
   text-transform: capitalize;
 }
-
+.social-icon img {
+  width: 8%;
+  transition: transform 0.3s ease-in-out;
+}
+.social-icon img:hover {
+  transform: scale(1.2);
+  /* color: yellow; */
+}
+.social-icon img:after {
+  content: "Visit please";
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
 /* End hero section */
 
 /* About me section */
@@ -160,10 +174,10 @@ body {
   font-size: 18px;
   font-weight: 600;
   gap: 8px;
-  /* box-shadow: 0px 25px 10px -15px #f5dab3; */
 }
 .code-skill span:hover {
   background-color: #d7a75d;
+  /* transform: scale(1.2); */
 }
 
 /* End Skill Section */
@@ -246,7 +260,7 @@ h2 {
 }
 .quick-links h3,
 .services-links h3 {
-  color: white;
+  color: #d7a75d;
   font-size: 1.8rem;
 }
 .quick-links li a,
