@@ -6,8 +6,8 @@
 
 :root {
   /* Fonts */
-  --sans-serif: "Bodoni Moda", serif;
-  --sans-serif-alt: "Playfair Display", serif;
+  /* --sans-serif: "Bodoni Moda", serif; */
+  /* --sans-serif-alt: "Playfair Display", serif; */
   /* --serif: "DM Serif Display", serif; */
 
   /* Colors */
@@ -24,7 +24,7 @@
   color: #d7a75d;
 }
 .ga-maamli-regular {
-  font-family: "Bodoni Moda", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: normal;
 }
