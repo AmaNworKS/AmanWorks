@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Section About-us Start */
+.banner-img{
+    background: url("../img/about-us.jpg!w700wp") no-repeat center bottom/cover;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+
+
+/* Banner Section About-us Start */
