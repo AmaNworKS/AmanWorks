@@ -21,17 +21,25 @@
     /* visibility: visible; */
     width: 100%
   }
+
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .continuous-rotate {
-    width: 75% !important;
+    width: 73% !important;
   }
 }
 
+
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .logo{
+    width: 63px !important;
+  }
+ .logo img {
+  width: 83%;
+ }
   .hero-section {
     height: unset !important;
   }
@@ -55,12 +63,19 @@
   .continuous-rotate {
     width: 75% !important;
   }
+  .about-box{
+    padding: 20px;
+    margin: 5px;
+  }
   .section-space {
     margin: 0px !important;
   }
   .about-text h2 {
     font-size: 2rem !important;
     font-weight: 600;
+  }
+  .banner-svg{
+    padding-top: 50px !important;
   }
 
   /* end about me */

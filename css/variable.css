@@ -1,6 +1,5 @@
 @import "./variables.css";
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* Variables */
 
 
@@ -58,7 +57,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--sans-serif);
+  font-family: "Baloo 2", serif;
   background: var(--dark);
   overflow-x: hidden;
   position: relative;
